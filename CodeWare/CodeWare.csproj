@@ -43,5 +43,8 @@
     <Compile Include="Kata.StringLetterCount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Kata.DeclareWinner.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
