@@ -46,5 +46,8 @@
   <ItemGroup>
     <Compile Include="Kata.DeclareWinner.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NumberTranslation.Number2Words.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

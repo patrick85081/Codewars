@@ -62,6 +62,12 @@
       <DependentUpon>DeclareWinner.feature</DependentUpon>
     </Compile>
     <Compile Include="DeclareWinnerSteps.cs" />
+    <Compile Include="Number2Words.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Number2Words.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Number2WordsSteps.cs" />
     <Compile Include="StringLetterCountTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -70,6 +76,10 @@
     <None Include="DeclareWinner.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>DeclareWinner.feature.cs</LastGenOutput>
+    </None>
+    <None Include="Number2Words.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Number2Words.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
