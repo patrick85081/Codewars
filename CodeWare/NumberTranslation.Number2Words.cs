@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -41,6 +42,40 @@ namespace CodeWare
         };
         public static string Number2Words(int number)
         {
+            var length = number.ToString().Length;
+            List<string> words = new List<string>();
+
+            if (length >= 3)
+            {
+                if((number / 1000) > 0 )
+                    words.Add($"{LessThousand(number / 1000)} thousand");
+
+                if ((number % 1000) > 0)
+                    words.Add($"{LessThousand(number % 1000)}");
+
+                return string.Join(" ", words);
+            }
+
+            words.Add(LessHundren(number));
+
+
+            return string.Join(" ", words);
+        }
+
+        private static string LessThousand(int number)
+        {
+            List<string> words = new List<string>();
+            if ((number / 100 % 10) > 0)
+                words.Add($"{one[(number / 100 % 10)]} hundren");
+
+            if (number % 100 > 0)
+                words.Add(LessHundren(number % 100));
+
+            return string.Join(" ", words);
+        }
+
+        private static string LessHundren(int number)
+        {
             if (one.ContainsKey(number))
                 return one[number];
             else
@@ -50,9 +85,6 @@ namespace CodeWare
                 var ttmp = one[(number / 10) % 100 * 10];
                 return $"{ttmp}-{tmp}";
             }
-
-
-            return string.Empty;
         }
     }
 }

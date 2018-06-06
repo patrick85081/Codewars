@@ -52,3 +52,54 @@ Scenario: 輸入99
 	Given 輸入 99 一組數字
 	When 按下轉換
 	Then 得到 ninety-nine .
+	
+Scenario: 輸入100
+	Given 輸入 100 一組數字
+	When 按下轉換
+	Then 得到 one hundren .
+
+Scenario: 輸入101
+	Given 輸入 101 一組數字
+	When 按下轉換
+	Then 得到 one hundren one .
+
+Scenario: 輸入150
+	Given 輸入 150 一組數字
+	When 按下轉換
+	Then 得到 one hundren fifty .
+
+Scenario: 輸入151
+	Given 輸入 151 一組數字
+	When 按下轉換
+	Then 得到 one hundren fifty-one .
+
+Scenario: 輸入1,000
+	Given 輸入 1000 一組數字
+	When 按下轉換
+	Then 得到 one thousand .
+	
+Scenario: 輸入10,000
+	Given 輸入 10000 一組數字
+	When 按下轉換
+	Then 得到 ten thousand .
+	
+Scenario: 輸入100,000
+	Given 輸入 100000 一組數字
+	When 按下轉換
+	Then 得到 one hundren thousand .
+	
+Scenario: 輸入100,002
+	Given 輸入 100002 一組數字
+	When 按下轉換
+	Then 得到 one hundren thousand two .
+	
+Scenario: 輸入99,999
+	Given 輸入 99999 一組數字
+	When 按下轉換
+	Then 得到 ninety-nine thousand nine hundren ninety-nine .
+
+Scenario: 輸入888,888
+	Given 輸入 888888 一組數字
+	When 按下轉換
+	Then 得到 eight hundren eighty-eight thousand eight hundren eighty-eight .
+

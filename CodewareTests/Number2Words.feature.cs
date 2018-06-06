@@ -235,6 +235,176 @@ this.ScenarioSetup(scenarioInfo);
 #line hidden
             this.ScenarioCleanup();
         }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入100")]
+        public virtual void 輸入100()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入100", ((string[])(null)));
+#line 56
+this.ScenarioSetup(scenarioInfo);
+#line 57
+ testRunner.Given("輸入 100 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 58
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 59
+ testRunner.Then("得到 one hundren .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入101")]
+        public virtual void 輸入101()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入101", ((string[])(null)));
+#line 61
+this.ScenarioSetup(scenarioInfo);
+#line 62
+ testRunner.Given("輸入 101 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 63
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 64
+ testRunner.Then("得到 one hundren one .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入150")]
+        public virtual void 輸入150()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入150", ((string[])(null)));
+#line 66
+this.ScenarioSetup(scenarioInfo);
+#line 67
+ testRunner.Given("輸入 150 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 68
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 69
+ testRunner.Then("得到 one hundren fifty .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入151")]
+        public virtual void 輸入151()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入151", ((string[])(null)));
+#line 71
+this.ScenarioSetup(scenarioInfo);
+#line 72
+ testRunner.Given("輸入 151 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 73
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 74
+ testRunner.Then("得到 one hundren fifty-one .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入1,000")]
+        public virtual void 輸入1000()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入1,000", ((string[])(null)));
+#line 76
+this.ScenarioSetup(scenarioInfo);
+#line 77
+ testRunner.Given("輸入 1000 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 78
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 79
+ testRunner.Then("得到 one thousand .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入10,000")]
+        public virtual void 輸入10000()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入10,000", ((string[])(null)));
+#line 81
+this.ScenarioSetup(scenarioInfo);
+#line 82
+ testRunner.Given("輸入 10000 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 83
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 84
+ testRunner.Then("得到 ten thousand .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入100,000")]
+        public virtual void 輸入100000()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入100,000", ((string[])(null)));
+#line 86
+this.ScenarioSetup(scenarioInfo);
+#line 87
+ testRunner.Given("輸入 100000 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 88
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 89
+ testRunner.Then("得到 one hundren thousand .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入100,002")]
+        public virtual void 輸入100002()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入100,002", ((string[])(null)));
+#line 91
+this.ScenarioSetup(scenarioInfo);
+#line 92
+ testRunner.Given("輸入 100002 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 93
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 94
+ testRunner.Then("得到 one hundren thousand two .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入99,999")]
+        public virtual void 輸入99999()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入99,999", ((string[])(null)));
+#line 96
+this.ScenarioSetup(scenarioInfo);
+#line 97
+ testRunner.Given("輸入 99999 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 98
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 99
+ testRunner.Then("得到 ninety-nine thousand nine hundren ninety-nine .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("輸入888,888")]
+        public virtual void 輸入888888()
+        {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("輸入888,888", ((string[])(null)));
+#line 101
+this.ScenarioSetup(scenarioInfo);
+#line 102
+ testRunner.Given("輸入 888888 一組數字", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 103
+ testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 104
+ testRunner.Then("得到 eight hundren eighty-eight thousand eight hundren eighty-eight .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+#line hidden
+            this.ScenarioCleanup();
+        }
     }
 }
 #pragma warning restore
