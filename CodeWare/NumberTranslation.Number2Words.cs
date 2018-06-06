@@ -33,31 +33,33 @@ namespace CodeWare
             {19, "nineteen"},
             {20, "twenty"},
             {30, "thirty" },
-            {40, "fourty" },
+            {40, "forty" },
             {50, "fifty" },
             {60, "sixty" },
             {70, "seventy" },
             {80, "eighty" },
             {90, "ninety" }
         };
+
         public static string Number2Words(int number)
         {
-            var length = number.ToString().Length;
+            if(number >= 1000_000)
+                throw new ArgumentOutOfRangeException();
+
+            if (number == 0)
+                return "zero";
+            else 
+                return LessMillion(number % 1000_000);
+        }
+
+        private static string LessMillion(int number)
+        {
             List<string> words = new List<string>();
+            if ((number / 1000 % 1000) > 0)
+                words.Add($"{LessThousand(number / 1000)} thousand");
 
-            if (length >= 3)
-            {
-                if((number / 1000) > 0 )
-                    words.Add($"{LessThousand(number / 1000)} thousand");
-
-                if ((number % 1000) > 0)
-                    words.Add($"{LessThousand(number % 1000)}");
-
-                return string.Join(" ", words);
-            }
-
-            words.Add(LessHundren(number));
-
+            if ((number % 1000) > 0)
+                words.Add($"{LessThousand(number % 1000)}");
 
             return string.Join(" ", words);
         }
@@ -66,7 +68,7 @@ namespace CodeWare
         {
             List<string> words = new List<string>();
             if ((number / 100 % 10) > 0)
-                words.Add($"{one[(number / 100 % 10)]} hundren");
+                words.Add($"{LessHundren(number / 100 % 10)} hundred");
 
             if (number % 100 > 0)
                 words.Add(LessHundren(number % 100));
@@ -80,10 +82,9 @@ namespace CodeWare
                 return one[number];
             else
             {
-                var first = number % 10;
-                var tmp = one[(number % 10)];
-                var ttmp = one[(number / 10) % 100 * 10];
-                return $"{ttmp}-{tmp}";
+                var first = one[(number % 10)];
+                var second = one[(number / 10) % 100 * 10];
+                return $"{second}-{first}";
             }
         }
     }

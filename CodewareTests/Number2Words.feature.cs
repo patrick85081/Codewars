@@ -248,7 +248,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 58
  testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 59
- testRunner.Then("得到 one hundren .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("得到 one hundred .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -265,7 +265,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 63
  testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 64
- testRunner.Then("得到 one hundren one .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("得到 one hundred one .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -282,7 +282,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 68
  testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 69
- testRunner.Then("得到 one hundren fifty .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("得到 one hundred fifty .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -299,7 +299,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 73
  testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 74
- testRunner.Then("得到 one hundren fifty-one .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("得到 one hundred fifty-one .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -350,7 +350,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 88
  testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 89
- testRunner.Then("得到 one hundren thousand .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("得到 one hundred thousand .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -367,7 +367,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 93
  testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 94
- testRunner.Then("得到 one hundren thousand two .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("得到 one hundred thousand two .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -384,7 +384,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 98
  testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 99
- testRunner.Then("得到 ninety-nine thousand nine hundren ninety-nine .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("得到 ninety-nine thousand nine hundred ninety-nine .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -401,7 +401,7 @@ this.ScenarioSetup(scenarioInfo);
 #line 103
  testRunner.When("按下轉換", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 104
- testRunner.Then("得到 eight hundren eighty-eight thousand eight hundren eighty-eight .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("得到 eight hundred eighty-eight thousand eight hundred eighty-eight .", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
