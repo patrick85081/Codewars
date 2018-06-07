@@ -43,13 +43,13 @@ namespace CodeWare
 
         public static string Number2Words(int number)
         {
-            if(number >= 1000_000)
+            if(number >= 1000000)
                 throw new ArgumentOutOfRangeException();
 
             if (number == 0)
                 return "zero";
             else 
-                return LessMillion(number % 1000_000);
+                return LessMillion(number % 1000000);
         }
 
         private static string LessMillion(int number)

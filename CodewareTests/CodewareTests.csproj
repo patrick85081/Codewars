@@ -40,6 +40,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ExpectedObjects, Version=2.3.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExpectedObjects.2.3.4\lib\net40\ExpectedObjects.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -56,12 +60,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlphabetPosition.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlphabetPosition.feature</DependentUpon>
+    </Compile>
+    <Compile Include="AlphabetPositionSteps.cs" />
     <Compile Include="DeclareWinner.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DeclareWinner.feature</DependentUpon>
     </Compile>
     <Compile Include="DeclareWinnerSteps.cs" />
+    <Compile Include="FriendOrFoe.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FriendOrFoe.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FriendOrFoeSteps.cs" />
+    <Compile Include="GetSum.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GetSum.feature</DependentUpon>
+    </Compile>
+    <Compile Include="GetSumSteps.cs" />
     <Compile Include="Number2Words.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -72,10 +94,22 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AlphabetPosition.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>AlphabetPosition.feature.cs</LastGenOutput>
+    </None>
     <None Include="App.config" />
     <None Include="DeclareWinner.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>DeclareWinner.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FriendOrFoe.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>FriendOrFoe.feature.cs</LastGenOutput>
+    </None>
+    <None Include="GetSum.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GetSum.feature.cs</LastGenOutput>
     </None>
     <None Include="Number2Words.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

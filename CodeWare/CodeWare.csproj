@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Kata.StringLetterCount.cs" />
+    <Compile Include="Kata.AlphabetPosition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -48,6 +49,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="NumberTranslation.Number2Words.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Kata.FriendOrFoe.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sum.GetSum.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
