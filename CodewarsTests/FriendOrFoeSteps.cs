@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections;
-using CodeWare;
+using Codewars;
 using TechTalk.SpecFlow;
 using System.Collections.Generic;
 using ExpectedObjects;
 using System.Linq;
 
-namespace CodewareTests
+namespace CodewarsTests
 {
     [Scope(Feature = "FriendOrFoe")]
     [Binding]

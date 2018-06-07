@@ -1,9 +1,9 @@
 ﻿using System;
-using CodeWare;
+using Codewars;
 using NUnit.Framework;
 using TechTalk.SpecFlow;
 
-namespace CodewareTests
+namespace CodewarsTests
 {
     [Binding]
     public class Number2WordsSteps

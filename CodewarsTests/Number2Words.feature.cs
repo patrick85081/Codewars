@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace CodewareTests
+namespace CodewarsTests
 {
     using TechTalk.SpecFlow;
     

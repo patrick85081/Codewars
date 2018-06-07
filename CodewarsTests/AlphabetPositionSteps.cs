@@ -1,9 +1,9 @@
 ﻿using System;
-using CodeWare;
+using Codewars;
 using NUnit.Framework;
 using TechTalk.SpecFlow;
 
-namespace CodewareTests
+namespace CodewarsTests
 {
     [Scope(Feature = "AlphabetPosition")]
     [Binding]

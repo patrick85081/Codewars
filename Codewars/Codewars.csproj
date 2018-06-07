@@ -7,8 +7,8 @@
     <ProjectGuid>{76045F76-2890-47FA-A651-09DB7B05B198}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CodeWare</RootNamespace>
-    <AssemblyName>CodeWare</AssemblyName>
+    <RootNamespace>Codewars</RootNamespace>
+    <AssemblyName>Codewars</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

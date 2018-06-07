@@ -5,7 +5,7 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeWare
+namespace Codewars
 {
     public class NumberTranslation
     {

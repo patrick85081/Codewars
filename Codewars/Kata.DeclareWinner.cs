@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeWare
+namespace Codewars
 {
     public partial class Kata
     {

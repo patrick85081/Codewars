@@ -1,8 +1,8 @@
 ﻿using System;
-using CodeWare;
+using Codewars;
 using NUnit.Framework;
 
-namespace CodewareTests
+namespace CodewarsTests
 {
     [TestFixture]
     public class StringLetterCountTests
