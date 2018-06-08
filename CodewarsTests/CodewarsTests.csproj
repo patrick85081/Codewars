@@ -84,12 +84,36 @@
       <DependentUpon>GetSum.feature</DependentUpon>
     </Compile>
     <Compile Include="GetSumSteps.cs" />
+    <Compile Include="IsTriangle.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IsTriangle.feature</DependentUpon>
+    </Compile>
+    <Compile Include="IsTriangleSteps.cs" />
+    <Compile Include="MakeComplement.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MakeComplement.feature</DependentUpon>
+    </Compile>
+    <Compile Include="MakeComplementSteps.cs" />
     <Compile Include="Number2Words.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Number2Words.feature</DependentUpon>
     </Compile>
     <Compile Include="Number2WordsSteps.cs" />
+    <Compile Include="PrinterError.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PrinterError.feature</DependentUpon>
+    </Compile>
+    <Compile Include="PrinterErrorSteps.cs" />
+    <Compile Include="SplitString.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SplitString.feature</DependentUpon>
+    </Compile>
+    <Compile Include="SplitStringSteps.cs" />
     <Compile Include="StringLetterCountTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -111,11 +135,27 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>GetSum.feature.cs</LastGenOutput>
     </None>
+    <None Include="IsTriangle.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>IsTriangle.feature.cs</LastGenOutput>
+    </None>
+    <None Include="MakeComplement.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MakeComplement.feature.cs</LastGenOutput>
+    </None>
     <None Include="Number2Words.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Number2Words.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <None Include="PrinterError.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>PrinterError.feature.cs</LastGenOutput>
+    </None>
+    <None Include="SplitString.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SplitString.feature.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Codewars\Codewars.csproj">

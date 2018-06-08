@@ -6,6 +6,7 @@ using TechTalk.SpecFlow;
 namespace CodewarsTests
 {
     [Binding]
+    [Scope(Feature = "GetSum")]
     public class GetSumSteps
     {
         Sum sum = new Sum();

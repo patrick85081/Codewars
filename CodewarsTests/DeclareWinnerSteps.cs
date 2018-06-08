@@ -6,6 +6,7 @@ using TechTalk.SpecFlow;
 namespace CodewarsTests
 {
     [Binding]
+    [Scope(Feature = "DeclareWinner")]
     public class DeclareWinnerSteps
     {
         [Given(@"第一名戰士 (.*), 生命 (.*), 攻擊 (.*)")]
