@@ -122,6 +122,7 @@
       <DependentUpon>SumStrings.feature</DependentUpon>
     </Compile>
     <Compile Include="SumStringsSteps.cs" />
+    <Compile Include="StringParseTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AlphabetPosition.feature">
