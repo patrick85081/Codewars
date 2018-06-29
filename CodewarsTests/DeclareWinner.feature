@@ -1,6 +1,7 @@
-﻿Feature: DeclareWinner
+﻿Feature:DeclareWinner
 	創建一個函數，返回兩名戰士之間的戰鬥中贏家的名字。
 	每個戰鬥機輪流攻擊另一個，誰先殺死另一個誰是勝利的。 死亡被定義為健康<= 0。
+	https://www.codewars.com/kata/two-fighters-one-winner/train/csharp
 
 @DeclareWinner
 Scenario: 戰鬥案例1
@@ -39,7 +40,7 @@ Scenario: 戰鬥案例6
 	When 由 Harald 先攻
 	Then 戰鬥結果 Harald 獲勝
 
-	Scenario: 戰鬥案例7
+Scenario: 戰鬥案例7
 	Given 第一名戰士 Jerry, 生命 40, 攻擊 3 
 	And 第二名戰士 Harald, 生命 20, 攻擊 5 
 	When 由 Harald 先攻

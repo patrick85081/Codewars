@@ -31,7 +31,8 @@ namespace CodewarsTests
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "DeclareWinner", "\t創建一個函數，返回兩名戰士之間的戰鬥中贏家的名字。\r\n\t每個戰鬥機輪流攻擊另一個，誰先殺死另一個誰是勝利的。 死亡被定義為健康<= 0。", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "DeclareWinner", "\t創建一個函數，返回兩名戰士之間的戰鬥中贏家的名字。\r\n\t每個戰鬥機輪流攻擊另一個，誰先殺死另一個誰是勝利的。 死亡被定義為健康<= 0。\r\n\thttps://w" +
+                    "ww.codewars.com/kata/two-fighters-one-winner/train/csharp", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -70,15 +71,15 @@ namespace CodewarsTests
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("戰鬥案例1", new string[] {
                         "DeclareWinner"});
-#line 6
-this.ScenarioSetup(scenarioInfo);
 #line 7
- testRunner.Given("第一名戰士 Lew, 生命 10, 攻擊 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 8
- testRunner.And("第二名戰士 Harry, 生命 5, 攻擊 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("第一名戰士 Lew, 生命 10, 攻擊 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.When("由 Lew 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("第二名戰士 Harry, 生命 5, 攻擊 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 10
+ testRunner.When("由 Lew 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 11
  testRunner.Then("戰鬥結果 Lew 獲勝", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -89,15 +90,15 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void 戰鬥案例2()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("戰鬥案例2", ((string[])(null)));
-#line 12
-this.ScenarioSetup(scenarioInfo);
 #line 13
- testRunner.Given("第一名戰士 Lew, 生命 10, 攻擊 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 14
- testRunner.And("第二名戰士 Harry, 生命 5, 攻擊 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("第一名戰士 Lew, 生命 10, 攻擊 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 15
- testRunner.When("由 Harry 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("第二名戰士 Harry, 生命 5, 攻擊 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 16
+ testRunner.When("由 Harry 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 17
  testRunner.Then("戰鬥結果 Harry 獲勝", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -108,15 +109,15 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void 戰鬥案例3()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("戰鬥案例3", ((string[])(null)));
-#line 18
-this.ScenarioSetup(scenarioInfo);
 #line 19
- testRunner.Given("第一名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 20
- testRunner.And("第二名戰士 Harry, 生命 5, 攻擊 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("第一名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 21
- testRunner.When("由 Harry 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("第二名戰士 Harry, 生命 5, 攻擊 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 22
+ testRunner.When("由 Harry 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 23
  testRunner.Then("戰鬥結果 Harald 獲勝", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -127,15 +128,15 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void 戰鬥案例4()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("戰鬥案例4", ((string[])(null)));
-#line 24
-this.ScenarioSetup(scenarioInfo);
 #line 25
- testRunner.Given("第一名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 26
- testRunner.And("第二名戰士 Harry, 生命 5, 攻擊 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("第一名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 27
- testRunner.When("由 Harald 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("第二名戰士 Harry, 生命 5, 攻擊 4", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 28
+ testRunner.When("由 Harald 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 29
  testRunner.Then("戰鬥結果 Harald 獲勝", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -146,15 +147,15 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void 戰鬥案例5()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("戰鬥案例5", ((string[])(null)));
-#line 30
-this.ScenarioSetup(scenarioInfo);
 #line 31
- testRunner.Given("第一名戰士 Jerry, 生命 30, 攻擊 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 32
- testRunner.And("第二名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("第一名戰士 Jerry, 生命 30, 攻擊 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 33
- testRunner.When("由 Jerry 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("第二名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 34
+ testRunner.When("由 Jerry 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 35
  testRunner.Then("戰鬥結果 Harald 獲勝", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -165,15 +166,15 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void 戰鬥案例6()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("戰鬥案例6", ((string[])(null)));
-#line 36
-this.ScenarioSetup(scenarioInfo);
 #line 37
- testRunner.Given("第一名戰士 Jerry, 生命 30, 攻擊 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 38
- testRunner.And("第二名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("第一名戰士 Jerry, 生命 30, 攻擊 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 39
- testRunner.When("由 Harald 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("第二名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 40
+ testRunner.When("由 Harald 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 41
  testRunner.Then("戰鬥結果 Harald 獲勝", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -184,15 +185,15 @@ this.ScenarioSetup(scenarioInfo);
         public virtual void 戰鬥案例7()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("戰鬥案例7", ((string[])(null)));
-#line 42
- this.ScenarioSetup(scenarioInfo);
 #line 43
- testRunner.Given("第一名戰士 Jerry, 生命 40, 攻擊 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+this.ScenarioSetup(scenarioInfo);
 #line 44
- testRunner.And("第二名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Given("第一名戰士 Jerry, 生命 40, 攻擊 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 45
- testRunner.When("由 Harald 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("第二名戰士 Harald, 生命 20, 攻擊 5", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 46
+ testRunner.When("由 Harald 先攻", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+#line 47
  testRunner.Then("戰鬥結果 Jerry 獲勝", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

@@ -116,6 +116,12 @@
     <Compile Include="SplitStringSteps.cs" />
     <Compile Include="StringLetterCountTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SumStrings.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SumStrings.feature</DependentUpon>
+    </Compile>
+    <Compile Include="SumStringsSteps.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AlphabetPosition.feature">
@@ -155,6 +161,10 @@
     <None Include="SplitString.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>SplitString.feature.cs</LastGenOutput>
+    </None>
+    <None Include="SumStrings.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>SumStrings.feature.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
