@@ -103,10 +103,10 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("超過UInt64的數字相加1")]
-        public virtual void 超過UInt64的數字相加1()
+        [NUnit.Framework.DescriptionAttribute("超過UInt64的數字相加")]
+        public virtual void 超過UInt64的數字相加()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("超過UInt64的數字相加1", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("超過UInt64的數字相加", ((string[])(null)));
 #line 18
 this.ScenarioSetup(scenarioInfo);
 #line 19
@@ -122,10 +122,10 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("超過UInt64的數字相加2")]
-        public virtual void 超過UInt64的數字相加2()
+        [NUnit.Framework.DescriptionAttribute("超過Decimal的數字相加")]
+        public virtual void 超過Decimal的數字相加()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("超過UInt64的數字相加2", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("超過Decimal的數字相加", ((string[])(null)));
 #line 25
 this.ScenarioSetup(scenarioInfo);
 #line 26
