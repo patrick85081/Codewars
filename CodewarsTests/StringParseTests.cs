@@ -29,7 +29,7 @@ namespace CodewarsTests
         }
 
         [Test]
-        [ TestCaseSource("testCases")]
+        [TestCaseSource(nameof(testCases))]
         public int ParseTest(string value, int fromBase) =>
             value.Parse(fromBase);
 

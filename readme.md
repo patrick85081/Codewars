@@ -11,3 +11,4 @@
 * [5 kyu Write out numbers](https://www.codewars.com/kata/52724507b149fa120600031d/train/csharp)
 * [7 kyu Printer Errors](https://www.codewars.com/kata/printer-errors/train/csharp)
 * [4 kyu Sum Strings as Numbers](http://www.codewars.com/kata/sum-strings-as-numbers/train/csharp)
+* [6 kyu Dubstep](https://www.codewars.com/kata/dubstep/train/csharp)

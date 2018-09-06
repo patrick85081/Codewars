@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DnaStrand.MakeComplement.cs" />
+    <Compile Include="Dubstep.cs" />
     <Compile Include="Kata.StringLetterCount.cs" />
     <Compile Include="Kata.AlphabetPosition.cs" />
     <Compile Include="Kata.SumStrings.cs" />
