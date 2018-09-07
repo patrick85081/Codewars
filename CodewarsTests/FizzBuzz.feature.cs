@@ -31,8 +31,8 @@ namespace CodewarsTests
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "FizzBuzz", "\tIn order to 報數遊戲，三個倍數報Fizz，五的倍數報Buzz，十五的倍數報FizzBuzz\r\n\tAs a teacher\r\n\tI want to 讓" +
-                    "我輸入一個數字，計算出需要報數用的字串", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "FizzBuzz", "\tIn order to 報數遊戲，三的倍數或數字有三報Fizz，五的倍數或數字有五報Buzz，十五的倍數報FizzBuzz\r\n\tAs a teacher\r\n\tI" +
+                    " want to 讓我輸入一個數字，計算出需要報數用的字串", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -134,11 +134,65 @@ this.報數測試當我輸入("6", "Fizz", ((string[])(null)));
         }
         
         [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("報數測試，當我輸入: 13")]
+        public virtual void 報數測試當我輸入_13()
+        {
+#line 6
+this.報數測試當我輸入("13", "Fizz", ((string[])(null)));
+#line hidden
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("報數測試，當我輸入: 14")]
+        public virtual void 報數測試當我輸入_14()
+        {
+#line 6
+this.報數測試當我輸入("14", "14", ((string[])(null)));
+#line hidden
+        }
+        
+        [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("報數測試，當我輸入: 15")]
         public virtual void 報數測試當我輸入_15()
         {
 #line 6
 this.報數測試當我輸入("15", "FizzBuzz", ((string[])(null)));
+#line hidden
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("報數測試，當我輸入: 50")]
+        public virtual void 報數測試當我輸入_50()
+        {
+#line 6
+this.報數測試當我輸入("50", "Buzz", ((string[])(null)));
+#line hidden
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("報數測試，當我輸入: 51")]
+        public virtual void 報數測試當我輸入_51()
+        {
+#line 6
+this.報數測試當我輸入("51", "FizzBuzz", ((string[])(null)));
+#line hidden
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("報數測試，當我輸入: 52")]
+        public virtual void 報數測試當我輸入_52()
+        {
+#line 6
+this.報數測試當我輸入("52", "Buzz", ((string[])(null)));
+#line hidden
+        }
+        
+        [NUnit.Framework.TestAttribute()]
+        [NUnit.Framework.DescriptionAttribute("報數測試，當我輸入: 153")]
+        public virtual void 報數測試當我輸入_153()
+        {
+#line 6
+this.報數測試當我輸入("153", "FizzBuzz", ((string[])(null)));
 #line hidden
         }
     }
