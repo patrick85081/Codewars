@@ -65,5 +65,8 @@
   <ItemGroup>
     <Compile Include="Sum.GetSum.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Kata.PigIt.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

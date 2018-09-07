@@ -13,6 +13,8 @@
 * [7 kyu Printer Errors](https://www.codewars.com/kata/printer-errors/train/csharp)
 * [4 kyu Sum Strings as Numbers](http://www.codewars.com/kata/sum-strings-as-numbers/train/csharp)
 * [6 kyu Dubstep](https://www.codewars.com/kata/dubstep/train/csharp)
+* [4 kyu Next bigger number with the same digits](http://www.codewars.com/kata/next-bigger-number-with-the-same-digits/csharp)
+* [5 kyu Simple Pig Latin](http://www.codewars.com/kata/simple-pig-latin/train/csharp)
 
 ### Coding Dojo
 * [FizzBuzz](https://codingdojo.org/kata/FizzBuzz/)

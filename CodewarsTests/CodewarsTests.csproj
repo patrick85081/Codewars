@@ -120,6 +120,12 @@
       <DependentUpon>Number2Words.feature</DependentUpon>
     </Compile>
     <Compile Include="Number2WordsSteps.cs" />
+    <Compile Include="PigIt.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PigIt.feature</DependentUpon>
+    </Compile>
+    <Compile Include="PigItSteps.cs" />
     <Compile Include="PrinterError.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -185,6 +191,10 @@
       <LastGenOutput>Number2Words.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
+    <None Include="PigIt.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>PigIt.feature.cs</LastGenOutput>
+    </None>
     <None Include="PrinterError.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>PrinterError.feature.cs</LastGenOutput>
