@@ -72,12 +72,18 @@
       <DependentUpon>DeclareWinner.feature</DependentUpon>
     </Compile>
     <Compile Include="DeclareWinnerSteps.cs" />
+    <Compile Include="FizzBuzz.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FizzBuzz.feature</DependentUpon>
+    </Compile>
     <Compile Include="DubstepSongDecoder.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DubstepSongDecoder.feature</DependentUpon>
     </Compile>
     <Compile Include="DubstepSongDecoderSteps.cs" />
+    <Compile Include="FizzBuzzSteps.cs" />
     <Compile Include="FriendOrFoe.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -139,6 +145,10 @@
     <None Include="DeclareWinner.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>DeclareWinner.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FizzBuzz.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>FizzBuzz.feature.cs</LastGenOutput>
     </None>
     <None Include="DubstepSongDecoder.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

@@ -3,7 +3,6 @@
 	回傳是否可以組成三角形
 	https://www.codewars.com/kata/is-this-a-triangle/train/csharp
 
-@mytag
 Scenario: 三角形案例1
 	Given 我有三個邊長 5, 7, 10
 	When 判斷是否可以組成三角形

@@ -65,121 +65,119 @@ namespace CodewarsTests
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("1 ~ 0 加總")]
-        [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void _10加總()
+        [NUnit.Framework.DescriptionAttribute("數字1 to 0 加總")]
+        public virtual void 數字1To0加總()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("1 ~ 0 加總", new string[] {
-                        "mytag"});
-#line 7
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("數字1 to 0 加總", ((string[])(null)));
+#line 6
 this.ScenarioSetup(scenarioInfo);
-#line 8
+#line 7
  testRunner.Given("開始數字： 1, 結束數字 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 9
+#line 8
  testRunner.When("開始計算", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 10
+#line 9
  testRunner.Then("結果為 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("1 ~ 2 加總")]
-        public virtual void _12加總()
+        [NUnit.Framework.DescriptionAttribute("數字1 to 2 加總")]
+        public virtual void 數字1To2加總()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("1 ~ 2 加總", ((string[])(null)));
-#line 12
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("數字1 to 2 加總", ((string[])(null)));
+#line 11
 this.ScenarioSetup(scenarioInfo);
-#line 13
+#line 12
  testRunner.Given("開始數字： 1, 結束數字 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 14
+#line 13
  testRunner.When("開始計算", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 15
+#line 14
  testRunner.Then("結果為 3", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("0 ~ 1 加總")]
-        public virtual void _01加總()
+        [NUnit.Framework.DescriptionAttribute("數字0 to 1 加總")]
+        public virtual void 數字0To1加總()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("0 ~ 1 加總", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("數字0 to 1 加總", ((string[])(null)));
+#line 16
+this.ScenarioSetup(scenarioInfo);
 #line 17
-this.ScenarioSetup(scenarioInfo);
-#line 18
  testRunner.Given("開始數字： 0, 結束數字 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line 18
+ testRunner.When("開始計算", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 19
- testRunner.When("開始計算", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 20
  testRunner.Then("結果為 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("1 ~ 1 加總")]
-        public virtual void _11加總()
+        [NUnit.Framework.DescriptionAttribute("數字1 to 1 加總")]
+        public virtual void 數字1To1加總()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("1 ~ 1 加總", ((string[])(null)));
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("數字1 to 1 加總", ((string[])(null)));
+#line 21
+this.ScenarioSetup(scenarioInfo);
 #line 22
-this.ScenarioSetup(scenarioInfo);
-#line 23
  testRunner.Given("開始數字： 1, 結束數字 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 24
+#line 23
  testRunner.When("開始計算", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 25
+#line 24
  testRunner.Then("結果為 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("negative 1 ~ 0 加總")]
-        public virtual void Negative10加總()
+        [NUnit.Framework.DescriptionAttribute("數字 -1 to 0 加總")]
+        public virtual void 數字_1To0加總()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("negative 1 ~ 0 加總", ((string[])(null)));
-#line 27
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("數字 -1 to 0 加總", ((string[])(null)));
+#line 26
 this.ScenarioSetup(scenarioInfo);
-#line 28
+#line 27
  testRunner.Given("開始數字： -1, 結束數字 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 29
+#line 28
  testRunner.When("開始計算", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 30
+#line 29
  testRunner.Then("結果為 -1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("negative 1 ~ 2 加總")]
-        public virtual void Negative12加總()
+        [NUnit.Framework.DescriptionAttribute("數字 -1 to 2 加總")]
+        public virtual void 數字_1To2加總()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("negative 1 ~ 2 加總", ((string[])(null)));
-#line 32
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("數字 -1 to 2 加總", ((string[])(null)));
+#line 31
 this.ScenarioSetup(scenarioInfo);
-#line 33
+#line 32
  testRunner.Given("開始數字： -1, 結束數字 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 34
+#line 33
  testRunner.When("開始計算", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 35
+#line 34
  testRunner.Then("結果為 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("negative 1 ~ 1 加總")]
-        public virtual void Negative11加總()
+        [NUnit.Framework.DescriptionAttribute("數字 -1 to 1 加總")]
+        public virtual void 數字_1To1加總()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("negative 1 ~ 1 加總", ((string[])(null)));
-#line 37
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("數字 -1 to 1 加總", ((string[])(null)));
+#line 36
 this.ScenarioSetup(scenarioInfo);
-#line 38
+#line 37
  testRunner.Given("開始數字： -1, 結束數字 1", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 39
+#line 38
  testRunner.When("開始計算", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line 40
+#line 39
  testRunner.Then("結果為 0", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();

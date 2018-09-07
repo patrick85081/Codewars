@@ -2,6 +2,7 @@
 
 ## 題目列表
 
+### Codewars
 * [7 kyu Two fighters, one winner.](https://www.codewars.com/kata/two-fighters-one-winner/train/csharp)
 * [6 kyu Replace With Alphabet Position](https://www.codewars.com/kata/replace-with-alphabet-position/train/csharp)
 * [7 kyu Friend or Foe?](https://www.codewars.com/kata/friend-or-foe/train/csharp)
@@ -12,3 +13,6 @@
 * [7 kyu Printer Errors](https://www.codewars.com/kata/printer-errors/train/csharp)
 * [4 kyu Sum Strings as Numbers](http://www.codewars.com/kata/sum-strings-as-numbers/train/csharp)
 * [6 kyu Dubstep](https://www.codewars.com/kata/dubstep/train/csharp)
+
+### Coding Dojo
+* [FizzBuzz](https://codingdojo.org/kata/FizzBuzz/)

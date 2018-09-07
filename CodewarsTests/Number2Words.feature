@@ -2,7 +2,6 @@
 	輸入一組數字，將輸入的數字轉換成英文
 	https://www.codewars.com/kata/52724507b149fa120600031d/train/csharp
 
-@mytag
 Scenario: 輸入0
 	Given 輸入 0 一組數字
 	When 按下轉換

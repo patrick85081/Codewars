@@ -6,6 +6,7 @@ using TechTalk.SpecFlow;
 namespace CodewarsTests
 {
     [Binding]
+    [Scope(Feature = "Number2Words")]
     public class Number2WordsSteps
     {
         [Given(@"輸入 (.*) 一組數字")]
