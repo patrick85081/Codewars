@@ -108,6 +108,12 @@
       <DependentUpon>MakeComplement.feature</DependentUpon>
     </Compile>
     <Compile Include="MakeComplementSteps.cs" />
+    <Compile Include="NextLargeNumber.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NextLargeNumber.feature</DependentUpon>
+    </Compile>
+    <Compile Include="NextLargeNumberSteps.cs" />
     <Compile Include="Number2Words.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -169,6 +175,10 @@
     <None Include="MakeComplement.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>MakeComplement.feature.cs</LastGenOutput>
+    </None>
+    <None Include="NextLargeNumber.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>NextLargeNumber.feature.cs</LastGenOutput>
     </None>
     <None Include="Number2Words.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
